@@ -29,6 +29,7 @@ I created a test file test.html to check the font-size and line-height of each s
 - Browse `file:///<YOUR-LOCAL-PATH>/task3/test.html`
 
 ## Improvements ideas
+- CRITICAL: redo Task2 to meet acceptance criterias
 - Bundle + minify js files using webpack, and probably managing dependencies with npm
 - Using reusable components (Probably with React) 
 - Refactoring all task1 css code to use sass
