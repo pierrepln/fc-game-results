@@ -1,3 +1,5 @@
+![Game Results](https://user-images.githubusercontent.com/11307717/48872859-e4187500-ede2-11e8-94f1-5b48665ca697.png "Game Results")
+
 ## Disclaimer
 I had to work offline most of the time, this made things harder but not imposible.
 I tried to keep it as simple as posible.
