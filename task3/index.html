@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Results</title>
+    <link rel="stylesheet" href="dist/main.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="results">
+            <h2>Latest games</h2>
+
+            <div class="results-list">
+                <div class="results-list-item">
+                    <img alt="" data-delete-game src="assets/trash.png" class="delete">
+                    <div class="results-info">
+                        <div class="player winner">
+                            <img alt="" src="assets/player.png">
+                            <span>Kerge Kotzher</span>
+                        </div>
+                        <div class="results-score">4 - 2</div>
+                        <div class="player">
+                            <span>Emily M. Mills</span>
+                            <img alt="" src="assets/player.png">
+                        </div>
+                    </div>
+                    <div class="results-details">
+                        <span>11-7</span>
+                        <span>11-9</span>
+                        <span>11-3</span>
+                        <span>9-11</span>
+                        <span>7-11</span>
+                        <span>11-8</span>
+                    </div>
+                </div>
+
+                <div class="results-list-item">
+                    <img alt="" data-delete-game src="assets/trash.png" class="delete">
+                    <div class="results-info">
+                        <div class="player">
+                            <img alt="" src="assets/player.png">
+                            <span>Oronzo Gallo</span>
+                        </div>
+                        <div class="results-score">0 - 3</div>
+                        <div class="player winner">
+                            <span>Leo Matić</span>
+                            <img alt="" src="assets/player.png">
+                        </div>
+                    </div>
+                    <div class="results-details">
+                        <span>3-11</span>
+                        <span>7-11</span>
+                        <span>0-6</span>
+                    </div>
+                </div>
+
+                <div class="results-list-item">
+                    <img alt="" data-delete-game src="assets/trash.png" class="delete">
+                    <div class="results-info">
+                        <div class="player">
+                            <img alt="" src="assets/player.png">
+                            <span>Nicole C. Lewis</span>
+                        </div>
+                        <div class="results-score">1 - 2</div>
+                        <div class="player winner">
+                            <span>Feng Yang</span>
+                            <img alt="" src="assets/player.png">
+                        </div>
+                    </div>
+                    <div class="results-details">
+                        <span>6-11</span>
+                        <span>14-12</span>
+                        <span>4-14</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="add-results">
+            <h2>Add games</h2>
+
+            <div class="add-results-players">
+                <input type="text" name="player1" placeholder="Look for a player"><br>
+                <span>vs</span>
+                <input type="text" name="player2" placeholder="Look for a player"><br>
+            </div>
+
+            <button type="button" data-add-game>Add Game</button>
+
+        </div>
+
+    </div>
+
+    <script src="assets/delete.js"></script>
+    <script src="assets/add.js"></script>
+</body>
+
+</html>

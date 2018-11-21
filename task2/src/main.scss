@@ -1,0 +1,132 @@
+body * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin: 1em auto;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+}
+@media all and (min-width: 768px) {
+    .container {
+        max-width: 50em;
+    }
+}
+
+.results-list-item {
+    position: relative;
+    margin: 20px 10px;
+    padding: 10px;
+}
+
+.delete {
+    float: right;
+    cursor: pointer;
+    width: 1em;
+    height: 1em;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+
+.delete:hover {
+    opacity: 1;
+}
+
+.results-info {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.player {
+    display: flex;
+}
+
+.results-score {
+    display: flex;
+    min-width: 2em;
+}
+
+.player img {
+    margin: 0 10px;
+    opacity: .3;
+    background: rgba(128, 128, 128, 0.1);
+    border-radius: 1em;
+    max-width: 1em;
+    max-height: 1em;
+}
+
+.results-details {
+    display: flex;
+    justify-content: center;
+}
+
+.results-details span {
+    margin: 0 4px;
+}
+
+.results-details span:not(:last-child):after {
+    content: "|";
+    position: relative;
+    left: 4px;
+}
+
+.winner:first-of-type:before, .winner:last-of-type:after {
+    content: "";
+    position: relative;
+    top: 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background: green;
+}
+
+.add-results {
+
+    &-players {
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+
+        input[type=text] {
+            display: flex;
+            min-width: 100px;
+            padding: 10px;
+            background: #fff;
+            border: 1px solid grey;
+            border-radius: 0;
+            color: grey;
+            background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'%3E%3C/path%3E%3C/svg%3E");
+            background-position: calc(100% - 3px) 50%;
+            background-repeat: no-repeat;
+            background-size: 16px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+
+        span {
+            display: flex;
+            position: relative;
+            margin: 0 20px;
+            top: 8px;
+        }
+    }
+
+    button {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        padding: 10px 20px;
+        margin: 30px auto;
+        color: white;
+        background: DodgerBlue;
+        transition: all .3s;
+
+        &:active {
+            background: white;
+        }
+    }
+}
