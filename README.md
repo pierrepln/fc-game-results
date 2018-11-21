@@ -1,5 +1,5 @@
 ## Disclaimer
-I had to work offline most of the time, hich made things harder but not imposible.
+I had to work offline most of the time, this made things harder but not imposible.
 I tried to keep it as simple as posible.
 
 ## Install
